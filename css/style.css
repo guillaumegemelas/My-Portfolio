@@ -3,7 +3,7 @@ body {
   font-family: Verdana, Arial, Tahoma, sans-serif;
   font-size: 16px;
 }
-
+/*mise en forme des titres*/
 h1 {
   font-size: 48px;
   color: white;
@@ -75,6 +75,7 @@ section {
   padding: 100px;
 }
 
+/*concene une #id*/
 #education {
   background-color: #eeeef7;
 }
