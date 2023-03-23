@@ -98,6 +98,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-color: yellow; */
 }
 
 .information img {
@@ -107,7 +108,6 @@ section {
   object-fit: cover;
   border: solid 3px #fcc01a;
   margin-right: 80px;
-  margin-bottom: 100px;
 }
 
 .name,
@@ -155,7 +155,13 @@ section {
   cursor: pointer;
 }
 .project-container img:hover {
-  box-shadow: 1px 1px 15px #5c48d2;
+  box-shadow: 1px 1px 15px rgb(143, 141, 141);
+  opacity: 0.7;
+}
+.project-container .logoproject img {
+  box-shadow: none;
+  opacity: 1;
+  cursor: auto;
 }
 
 .project-container {
