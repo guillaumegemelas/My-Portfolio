@@ -4,21 +4,32 @@
     <title>Mon portfolio</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- import de fontawesome pour icones -->
+    <script
+      src="https://kit.fontawesome.com/411cafb371.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--import main.js--------------------------->
   </head>
 
   <!-- //*corps du html*// -->
   <body>
     <header>
-      <h1>Guillaume Gemelas</h1>
+      <div><h1>Guillaume Gemelas</h1></div>
+
+      <button class="icon" id="togg2"><i class="fa-solid fa-bars"></i></button>
     </header>
 
     <main>
-      <nav>
-        <a href="#about-me">A propos de moi</a>
-        <a href="#education">Formation</a>
-        <a href="#projects">Projets</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <div class="text" id="d2">
+        <nav>
+          <a href="#about-me">A propos de moi</a>
+          <a href="#education">Formation</a>
+          <a href="#projects">Projets</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
 
       <img class="main-img" src="./img/computer.jpeg" alt="computer" />
 
@@ -167,7 +178,9 @@
 
         <!-- cinquième projet Deliveroo------------------ -->
         <div class="project-container1">
-          <img src="./img/deliveroo.png" alt="devileroo" />
+          <a href="https://github.com/guillaumegemelas/deliveroo-front.git">
+            <img src="./img/deliveroo.png" alt="devileroo"
+          /></a>
 
           <div>
             <h3>Deliveroo web</h3>
@@ -178,19 +191,22 @@
                 src="./img/react-logo-1000-transparent-300x300.png"
                 alt="react"
               />
+              <img src="./img/Expressjs.png" alt="express" />
             </div>
-            <h4>Projet Front end</h4>
+            <h4>Projet Full-Stack</h4>
             <ul>
               <li>Réplique de la page commandes</li>
               <li>Récupération de données via json</li>
-              <li>Panier de commandes: update</li>
+              <li>Panier de commandes</li>
             </ul>
           </div>
         </div>
 
         <!-- sixième projet Airbnb------------------ -->
         <div class="project-container1">
-          <img src="./img/airbnb.png" alt="airbnb" />
+          <a href="https://github.com/guillaumegemelas/Airbnb.git">
+            <img src="./img/airbnb.png" alt="airbnb"
+          /></a>
 
           <div>
             <h3>Airbnb Mobile</h3>
@@ -214,22 +230,30 @@
       <section id="contact">
         <h2>Contactez-moi</h2>
 
-        <div>
+        <div class="mail">
           <img src="./img/mail.jpg" alt="mail" />
           <p>guillaumegemelas@hotmail.com</p>
         </div>
 
-        <div>
-          <img src="./img/linkedin.png" alt="linkedin" />
-          <a
-            href="https://www.linkedin.com/in/guillaume-gemelas-a88880230/"
-            target="_blank"
-            >https://www.linkedin.com/in/guillaume-gemelas</a
-          >
+        <div class="linkedin">
+          <a href="https://www.linkedin.com/in/guillaume-gemelas-a88880230/"
+            ><img src="./img/linkedin.png" alt="linkedin"
+          /></a>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/guillaume-gemelas-a88880230/"
+              target="_blank"
+            >
+              https://www.linkedin.com/in/guillaume-gemelas</a
+            >
+          </p>
         </div>
 
-        <div>
-          <img src="./img/github.png" alt="github" />
+        <div class="github">
+          <a href="https://github.com/guillaumegemelas"
+            ><img src="./img/github.png" alt="github"
+          /></a>
+
           <p>
             <a href="https://github.com/guillaumegemelas"
               >https://github.com/guillaumegemelas</a
@@ -244,5 +268,6 @@
 
       <!-- <a href="https://www.lereacteur.io " target="_blank">Le Reacteur</a> -->
     </footer>
+    <script src="./app.js"></script>
   </body>
 </html>

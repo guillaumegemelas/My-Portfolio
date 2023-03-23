@@ -9,6 +9,7 @@ body {
   font-size: 16px;
   /* scroll-behavior: smooth; */
 }
+
 /*mise en forme des titres*/
 h1 {
   font-size: 48px;
@@ -16,6 +17,10 @@ h1 {
   line-height: 200px;
   margin: 0 auto;
   text-align: center;
+}
+
+header .icon {
+  display: none;
 }
 
 h2,
@@ -185,6 +190,18 @@ section {
   width: 500px;
   margin-right: 60px;
 }
+.project-container1 img:hover {
+  box-shadow: 1px 1px 15px rgb(143, 141, 141);
+  opacity: 0.7;
+}
+.project-container1 .logoproject img {
+  box-shadow: none;
+  opacity: 1;
+  cursor: auto;
+}
+.project-container1 img:nth-child(4) {
+  width: 74px;
+}
 
 #projects li {
   line-height: 30px;
@@ -205,6 +222,7 @@ section {
 #contact img {
   height: 30px;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 #contact a {
@@ -244,4 +262,67 @@ footer p {
 
 footer a:hover {
   color: #190f33;
+}
+
+/*==PARTIE RESPONSIVE========630px======================*/
+
+@media (max-width: 630px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 90vw;
+  }
+  header h1 {
+    font-size: 25px;
+    margin: 0 auto;
+  }
+  header .icon {
+    display: contents;
+    font-size: 25px;
+    color: lightgray;
+    padding-bottom: 25px;
+  }
+  header .icon:hover {
+    color: grey;
+  }
+
+  main {
+    background-color: white;
+    width: 90vw;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* justify-content: space-around; */
+  }
+
+  #contact p {
+    display: none;
+  }
+
+  #contact {
+    width: 90vw;
+    background-color: yellow;
+  }
+  .text {
+    display: none;
+  }
+  .text nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    height: 200px;
+  }
+  .text nav a {
+    width: 50vw;
+    border-bottom: 1px solid lightgray;
+  }
+  .main-img {
+    width: 90vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
 }
