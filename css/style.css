@@ -154,21 +154,21 @@ section {
   font-style: italic;
 }
 
-#education p {
+.educp p {
   text-align: center;
+  margin-bottom: 50px;
 }
 .education {
   display: flex;
   flex-direction: column;
-  margin-bottom: 100px;
-  display: flex;
+  height: 100%;
   background-color: rgb(247, 243, 238);
 }
 
 .compContainer {
   display: flex;
-  height: 500px;
-  background-color: #fcc01a;
+  height: auto;
+  /* background-color: #fcc01a; */
 }
 .compContainer1 {
   display: flex;
@@ -176,10 +176,11 @@ section {
   justify-content: flex-start;
   height: 100%;
   width: 60%;
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
 }
 .compContainer1 img {
-  height: 20px;
+  max-height: 50px;
+  max-width: 100px;
 }
 .compContainer2 {
   display: flex;
@@ -191,7 +192,8 @@ section {
   /* background-color: yellow; */
 }
 .compContainer2 img {
-  height: 300px;
+  height: 350px;
+  margin-left: 20px;
   box-shadow: 1px 1px 15px rgb(143, 141, 141);
   margin-bottom: 20px;
 }
@@ -206,6 +208,37 @@ section {
   height: 30px;
   background-color: #b4a796;
   color: white;
+}
+.compContainer2 a:hover {
+  opacity: 0.7;
+}
+.titleComp {
+  margin-top: 50px;
+  font-weight: bold;
+}
+.FrontEnd {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 500px; */
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+  /* background-color: red; */
+}
+.BackEnd {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+  /* background-color: #fcc01a; */
+}
+.Divers {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-top: 20px;
 }
 
 #education div:nth-child(1) {
@@ -232,9 +265,9 @@ section {
   width: 500px;
   margin-right: 60px;
   cursor: pointer;
+  box-shadow: 1px 1px 15px rgb(143, 141, 141);
 }
 .project-container img:hover {
-  box-shadow: 1px 1px 15px rgb(143, 141, 141);
   opacity: 0.7;
 }
 .project-container .logoproject img {
@@ -259,13 +292,18 @@ section {
   justify-content: center;
   align-items: center;
 }
+.straigth {
+  border-bottom: 1px solid #b4a796;
+  margin: 0 auto;
+  width: 60%;
+}
 
 .project-container1 img {
   width: 500px;
   margin-right: 60px;
+  box-shadow: 1px 1px 15px rgb(143, 141, 141);
 }
 .project-container1 img:hover {
-  box-shadow: 1px 1px 15px rgb(143, 141, 141);
   opacity: 0.7;
 }
 .project-container1 .logoproject img {
@@ -328,6 +366,7 @@ section {
 .contact-container a {
   text-decoration: none;
 }
+
 #contact a:hover {
   color: #b4a796;
 }
@@ -338,12 +377,6 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-footer a {
-  line-height: 40px;
-  text-decoration: none;
-  color: #fcc01a;
 }
 
 footer p {
@@ -508,9 +541,16 @@ footer a:hover {
     max-width: 80vw;
     margin: 0 auto;
   }
+  .projectss h3 {
+    text-align: center;
+    margin-top: 30px;
+    /* background-color: #fcc01a; */
+  }
+
   .projectss h2 {
     margin-top: 50px;
   }
+
   .project-container {
     flex-direction: column;
     margin: 0 auto;
@@ -558,6 +598,11 @@ footer a:hover {
     margin: 0 auto;
     width: 60vw;
   }
+  .straigth1 {
+    border-bottom: 1px solid #b4a796;
+    margin: 0 auto;
+    width: 60%;
+  }
 
   #contact a:nth-child(0) {
     text-decoration: none;
@@ -567,19 +612,54 @@ footer a:hover {
   .compContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: auto;
-    background-color: #fcc01a;
+    /* background-color: #fcc01a; */
+  }
+  .FrontEnd {
+    display: flex;
+    justify-content: center;
+  }
+  .BackEnd {
+    display: flex;
+    justify-content: center;
   }
   .compContainer1 {
-    width: 90vw;
+    display: flex;
+    align-items: center;
+    width: 80vw;
     margin-top: 10px;
+    margin-bottom: 70px;
+    /* background-color: #fff; */
+  }
+  .titleComp {
+    margin-bottom: 40px;
+    margin-top: 80px;
   }
   .compContainer2 {
+    display: flex;
+    justify-content: center;
     width: 90vw;
-    margin-top: 50px;
+    margin-top: 70px;
+    margin-bottom: 90px;
   }
   .compContainer2 img {
-    height: 200px;
+    height: 250px;
     box-shadow: 1px 1px 15px rgb(143, 141, 141);
+  }
+  #contact img {
+    height: 40px;
+  }
+  .education .topPage {
+    margin-bottom: 80px;
+  }
+  .projectss .topPage {
+    margin-bottom: 50px;
+  }
+  footer {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
