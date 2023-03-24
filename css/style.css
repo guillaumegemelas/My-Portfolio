@@ -375,14 +375,11 @@ footer a:hover {
     margin: 0 auto;
   }
   .project-container {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: pink;
-    width: 60vw;
+    width: 62vw;
   }
   .project-container1 {
     flex-direction: column;
