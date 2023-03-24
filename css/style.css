@@ -376,6 +376,7 @@ footer a:hover {
   }
   .project-container {
     flex-direction: column;
+
     margin-top: 100px;
     margin-bottom: 100px;
     /* background-color: pink; */
@@ -389,11 +390,14 @@ footer a:hover {
     width: 62vw;
   }
   .project-container img {
-    width: 70vw;
+    width: 80vw;
+    margin-right: 0px;
+    margin: 0 auto;
     margin-bottom: 30px;
   }
   .project-container1 img {
-    width: 70vw;
+    width: 80vw;
+    margin-right: 70px;
     margin-bottom: 30px;
   }
   .logoproject img {
