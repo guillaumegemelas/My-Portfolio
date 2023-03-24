@@ -299,6 +299,10 @@ footer a:hover {
     margin: 0 auto;
     /* justify-content: space-around; */
   }
+  section {
+    /* background-color: #fcc01a; */
+    padding: 0px;
+  }
   .headerfirst img {
     display: block;
     height: 100px;
@@ -363,6 +367,27 @@ footer a:hover {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
+
+  /* ---------------------test------------------ */
+
+  .information {
+    /* background-color: #fcc01a; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .informations-text {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: pink; */
+  }
+
+  /* ---------------------test------------------ */
   .information img {
     display: none;
   }
@@ -371,33 +396,40 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     /* background-color: yellow; */
-    max-width: 90vw;
+    max-width: 80vw;
     margin: 0 auto;
   }
   .project-container {
     flex-direction: column;
-
+    margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
     /* background-color: pink; */
-    width: 62vw;
+    width: 80vw;
   }
   .project-container1 {
     flex-direction: column;
     margin-top: 100px;
     margin-bottom: 100px;
     /* background-color: pink; */
-    width: 62vw;
+    width: 80vw;
   }
   .project-container img {
     width: 80vw;
-    margin-right: 80px;
+    margin: 0 auto;
     margin-bottom: 30px;
   }
   .project-container1 img {
     width: 80vw;
-    margin-right: 80px;
+    margin: 0 auto;
     margin-bottom: 30px;
+  }
+  .test1 {
+    width: 80vw;
+    /* background-color: #fcc01a; */
+  }
+  .test1 ul {
+    margin-left: 15px;
   }
   .logoproject img {
     height: 30px;
