@@ -114,6 +114,21 @@ section {
   border: solid 3px #fcc01a;
   margin-right: 80px;
 }
+.headerfirst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.headerfirst img {
+  display: none;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: solid 3px #fcc01a;
+  margin-left: 80px;
+}
 
 .name,
 .city {
@@ -273,16 +288,32 @@ footer a:hover {
     align-items: center;
     justify-content: space-around;
     width: 90vw;
+    height: 250px;
+    /* background-colsor: lightgreen; */
+    margin: 0 auto;
+  }
+  .headerfirst img {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 3px #fcc01a;
+    margin-left: 50px;
+  }
+  .headerfirst {
+    display: flex;
+    /* background-color: pink; */
+    width: 100%;
   }
   header h1 {
-    font-size: 25px;
+    font-size: 30px;
     margin: 0 auto;
   }
   header .icon {
     display: contents;
     font-size: 25px;
     color: lightgray;
-    padding-bottom: 25px;
   }
   header .icon:hover {
     color: grey;
@@ -293,7 +324,7 @@ footer a:hover {
     width: 90vw;
     border-radius: 20px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 30px;
     /* justify-content: space-around; */
   }
 
@@ -301,9 +332,10 @@ footer a:hover {
     display: none;
   }
 
-  #contact {
-    width: 90vw;
-    background-color: yellow;
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
   }
   .text {
     display: none;
@@ -312,7 +344,6 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     align-items: center;
     height: 200px;
   }
@@ -324,5 +355,50 @@ footer a:hover {
     width: 90vw;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+  }
+  .information img {
+    display: none;
+  }
+
+  .projectss {
+    /* background-color: yellow; */
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+  .project-container {
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* background-color: pink; */
+    width: 62vw;
+  }
+  .project-container1 {
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* background-color: pink; */
+    width: 62vw;
+  }
+  .project-container img {
+    width: 80vw;
+    margin-bottom: 30px;
+  }
+  .project-container1 img {
+    width: 80vw;
+    margin-bottom: 30px;
+  }
+  .logoproject img {
+    height: 30px;
+    width: auto;
+  }
+  .logoproject {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    width: 420px;
+  }
+  .straigth {
+    border-bottom: 1px solid lightgray;
+    width: 50vw;
   }
 }

@@ -19,6 +19,3 @@ function togg() {
   }
 }
 togg2.onclick = togg;
-
-// const btn = document.querySelector(".icon");
-// const text = document.querySelector("button");
