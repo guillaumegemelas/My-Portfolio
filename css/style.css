@@ -304,10 +304,10 @@ footer a:hover {
   .headerfirst {
     display: flex;
     /* background-color: pink; */
-    width: 100%;
+    width: 100vw;
   }
   header h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin: 0 auto;
   }
   header .icon {
