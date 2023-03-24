@@ -439,10 +439,11 @@ footer a:hover {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
-    width: 420px;
+    width: 70vw;
   }
   .straigth {
     border-bottom: 1px solid lightgray;
-    width: 50vw;
+    margin: 0 auto;
+    width: 60vw;
   }
 }
