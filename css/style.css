@@ -650,6 +650,7 @@ footer a:hover {
   #contact img {
     height: 40px;
   }
+
   .education .topPage {
     margin-bottom: 80px;
   }
@@ -661,5 +662,16 @@ footer a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .educp {
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+  }
+  .educp p {
+    width: 90%;
+    text-align: left;
   }
 }
