@@ -368,16 +368,21 @@ footer a:hover {
   }
 
   .projectss {
-    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
     max-width: 90vw;
     margin: 0 auto;
   }
   .project-container {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 100px;
     margin-bottom: 100px;
-    /* background-color: pink; */
-    max-width: 62vw;
+    background-color: pink;
+    width: 90vw;
   }
   .project-container1 {
     flex-direction: column;
