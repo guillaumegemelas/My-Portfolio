@@ -389,11 +389,11 @@ footer a:hover {
     width: 62vw;
   }
   .project-container img {
-    max-width: 70vw;
+    width: 70vw;
     margin-bottom: 30px;
   }
   .project-container1 img {
-    max-width: 70vw;
+    width: 70vw;
     margin-bottom: 30px;
   }
   .logoproject img {
