@@ -95,6 +95,9 @@ nav a:hover {
   width: 1024px;
   object-fit: cover;
 }
+.test1 span {
+  color: rgb(24, 24, 68);
+}
 
 section {
   /* background-color: #fcc01a; */
