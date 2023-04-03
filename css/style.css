@@ -390,6 +390,13 @@ footer p {
 footer a:hover {
   color: #190f33;
 }
+.phone button {
+  border: none;
+  background-color: #f6f3ee;
+}
+.text1 {
+  display: none;
+}
 
 /*==PARTIE RESPONSIVE========630px======================*/
 
@@ -456,6 +463,11 @@ footer a:hover {
 
   #contact p {
     display: none;
+  }
+  #contact .text2 {
+    display: none;
+    color: #f6f3ee;
+    font-size: 1px;
   }
   #education div:nth-child(1) {
     height: 30px;
@@ -676,5 +688,8 @@ footer a:hover {
   .educp p {
     width: 90%;
     text-align: left;
+  }
+  .phone .text2 {
+    display: none;
   }
 }
