@@ -398,7 +398,7 @@ footer a:hover {
   display: none;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 1024px) {
   header {
     display: flex;
     flex-direction: column;
