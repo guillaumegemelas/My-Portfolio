@@ -689,4 +689,8 @@ footer a:hover {
   .phone .text2 {
     display: none;
   }
+
+  #contact {
+    padding-bottom: 60px;
+  }
 }
